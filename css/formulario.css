@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;                                                                                                                                                                                
+}
+body{
+    background-color: #e8f1fd;
+}  
+.container{
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 2px solid #004480;
+    max-width: 500px;
+    /* centralizar*/
+    margin: auto;
+}
+label{
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input,
+select{
+    width: 98%;
+    padding: 4px;
+}
+h1{
+    border: 1px solid #000000;
+    text-align: center;
+}
+.btn-cadastro, 
+.btn-limpar{
+    background: #32CD32;
+    color: white;
+    padding: 10px;
+    border:0;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn-limpar{
+    background: red;
+}
+.link{
+    color: #000000;
+    text-align: center;
+}
+a:hover{
+    background-color: #d0dfff;
+}
+a{
+     text-decoration: none;
+     color:#000000;
+}

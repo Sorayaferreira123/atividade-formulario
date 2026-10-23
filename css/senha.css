@@ -1,0 +1,45 @@
+ body{
+    border: 2px solid #004480;
+    max-width: 500px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+    /*Borda arredondada*/
+    border-radius: 10px;
+ }
+ button{
+    width:95%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #2563eb;
+    color:white;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: 1.0s all;
+ }
+ h1{
+   text-align: center;
+ }
+ h3{
+   text-align: center;
+ }
+ label{
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    width: 98%;
+    padding: 4px;
+}
+.link{
+    text-align: center;
+}
+a:hover{
+    background-color: #d0dfff;
+}
+a{
+    text-decoration: none;
+    color:#000000;
+}
